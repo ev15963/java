@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/tab1"
+        app:showAsAction="always"
+        android:icon="@drawable/icon_clock"
+        android:enabled="true"
+        android:checked="true"
+        android:title="알람" />
+    <item android:id="@+id/tab2"
+        app:showAsAction="always"
+        android:icon="@drawable/icon_calendar"
+        android:enabled="true"
+        android:title="캘린더"/>
+    <item android:id="@+id/tab3"
+        app:showAsAction="always"
+        android:icon="@drawable/icon_weather"
+        android:enabled="true"
+        android:title="날씨"/>
+
+    <item android:id="@+id/tab4"
+        app:showAsAction="always"
+        android:icon="@drawable/icon_config"
+        android:enabled="true"
+        android:title="설정"/>
+
+</menu>

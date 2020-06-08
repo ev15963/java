@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/itemAlarm"
+        android:title="알람"
+        />
+
+    <item
+        android:id="@+id/itemCalendar"
+        android:title="캘린더"
+        />
+
+    <item
+        android:id="@+id/itemWeather"
+        android:title="날씨"
+        />
+
+    <item
+        android:id="@+id/itemDeveloper"
+        android:title="개발자 정보"
+        />
+
+</menu>
