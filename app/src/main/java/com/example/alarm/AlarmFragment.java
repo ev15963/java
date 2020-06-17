@@ -40,18 +40,18 @@ import java.util.Locale;
 import static android.content.ContentValues.TAG;
 
 public class AlarmFragment extends Fragment {
-    private static final int REQUESTCODE_RINGTONE_PICKER = 1000;
-    ViewGroup viewGroup;
-    Button set,remove, ringtoneShow, ringtoneRemove, plus;
-    PendingIntent alarmIntent;
-    TimePicker timePicker;
-    static AlarmManager alarmMgr;
-    int hour, minute;
-    String ringtoneUri;
+        private static final int REQUESTCODE_RINGTONE_PICKER = 1000;
+        ViewGroup viewGroup;
+        Button set,remove, ringtoneShow, ringtoneRemove, plus;
+        PendingIntent alarmIntent;
+        TimePicker timePicker;
+        static AlarmManager alarmMgr;
+        int hour, minute;
+        String ringtoneUri;
 
 
-    @Override
-    public void onCreate(@Nullable Bundle savedInstanceState) {
+        @Override
+        public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
     }
@@ -182,7 +182,7 @@ public class AlarmFragment extends Fragment {
     }
 
     //알람 등록
-    public void setAlarm
+    //public void setAlarm
 
     //mTimePicker = (TimePicker) findViewById(R.id.timePicker);
 

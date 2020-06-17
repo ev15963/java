@@ -4,7 +4,8 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#313131">
+    android:background="#313131"
+    >
 
     <ImageView
         android:id="@+id/imageView2"
@@ -32,13 +33,15 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/plus"
+                android:id="@+id/btn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="22dp"
                 android:text="타임피커"
                 android:layout_weight="1"
-                android:layout_marginLeft="30dp"/>
+                android:layout_marginLeft="30dp"
+                android:onClick="onBtnClicked"
+                android:layout_below="@id/tv" />
 
             <Button
                 android:id="@+id/setAl"
